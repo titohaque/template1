@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="myTemplate">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript" src="js/jquerylib.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<div id="wrapper" ng-controller="myCntl2">
+<div id='nav'>
+<ul>
+   <li><a href="#"><span>Home</span></a></li>
+   <li><a href='#'><span>Books</span></a></li>
+   <li><a href='#'><span>News Papers</span></a></li>
+   <li><a href='#'><span>Products</span></a>
+   
+      <ul>
+         <li ><a href='#'><span>Widgets</span></a></li>
+         
+         
+         
+         
+         
+         <li><a href='#'><span>Menus</span></a></li>
+         <li class="ui-state-disabled" class='last'><a href='#'><span>Products</span></a></li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Company</span></a>
+      <ul>
+         <li><a href='#'><span>About</span></a></li>
+         <li class='last'><a href='#'><span>Location</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='#'><span>IT</span></a></li>
+  
+   <li class='last'><a href='#'><span>Contact</span></a></li>
+   
+   
+</ul>
+<div id="mydiv" ng-hide="alpha">
+<temp1></temp1>
+<p>I am </p>
+
+<br>
+
+</div>
+
+<div id="mydiv1" ng-show="beta">
+
+<temp1></temp1>
+</div>
+
+
+ 
+
+
+</div>
+</body>
+</html>
